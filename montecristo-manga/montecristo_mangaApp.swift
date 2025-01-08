@@ -11,7 +11,7 @@ import SwiftUI
 struct montecristo_mangaApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            MainView()
         }
     }
 }
