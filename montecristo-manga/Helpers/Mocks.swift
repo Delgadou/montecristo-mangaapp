@@ -37,4 +37,13 @@ struct Manga: Identifiable {
          Manga(name: "Kim", imageName: "KimCapa", chapters: "Chapters: 5", score: "0.0"),
         ]
     }
+
+    static func onePieceChapters() -> [Manga] {
+        [Manga(name: "Punk Hazard", imageName: "OP1067", chapters: "Chapter 1067", score: "5.0"),
+         Manga(name: "A Determinação de Ohara", imageName: "OP1065", chapters: "Chapter 1065", score: "5.0"),
+         Manga(name: "Egg Head: Lab Phase", imageName: "OP1064", chapters: "Chapter 1064", score: "5.0"),
+         Manga(name: "Minha única familia", imageName: "OP1063", chapters: "Chapter 1063", score: "5.0"),
+         Manga(name: "Aventura na terra da ciencia", imageName: "OP1066", chapters: "Chapter 1062", score: "5.0"),
+        ]
+    }
 }

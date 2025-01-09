@@ -14,5 +14,5 @@ class HomeModel {
     var recentMangas: [Manga] = Manga.mockReleaseChapterData()
     var comingSoonMangas: [Manga] = Manga.mockComingSoon()
     var currentIndex: Int = 0
-
+    var onePieceChapters: [Manga] = Manga.onePieceChapters()
 }
